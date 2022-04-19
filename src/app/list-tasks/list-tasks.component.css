@@ -1,0 +1,16 @@
+app-task{
+    width: 100%;
+    padding: 10px 8px;
+    background-color: #353b3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 13px;
+}
+app-task:nth-of-type(1){
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}app-task:last-of-type{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
